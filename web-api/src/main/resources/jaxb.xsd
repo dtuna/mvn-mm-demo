@@ -6,7 +6,7 @@
     <xsd:annotation>
         <xsd:appinfo>
             <jaxb:schemaBindings>
-                <jaxb:package name="guru.springframework.domain"/>
+                <jaxb:package name="com.orco.domain"/>
             </jaxb:schemaBindings>
         </xsd:appinfo>
     </xsd:annotation>
