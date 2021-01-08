@@ -10,7 +10,7 @@ public interface UserMapper {
 
     UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 
-    UserMapper userToUseCommand(User user);
+    UserCommand userToUserCommand(User user);
 
-    UserCommand userCommandToUser(UserCommand userCommand);
+    User userCommandToUser(UserCommand userCommand);
 }
