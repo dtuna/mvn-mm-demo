@@ -6,7 +6,7 @@
 
     <groupId>com.orco</groupId>
     <artifactId>mvn-mm-demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
 
     <packaging>pom</packaging>
 
@@ -14,9 +14,12 @@
         <module>jpa-entities</module>
         <module>from-intellij</module>
         <module>web-api</module>
+        <module>converters</module>
+        <module>web-app</module>
     </modules>
 
     <properties>
+        <revision>1.0-SNAPSHOT</revision>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>

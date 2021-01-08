@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.orco</groupId>
         <artifactId>mvn-mm-demo</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>jpa-entities</artifactId>
